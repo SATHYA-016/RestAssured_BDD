@@ -7,8 +7,8 @@ import pojo.AddPlace;
 import pojo.Location;
 
 public class build {
-	
-	public AddPlace addplace_payload() {
+	//changes made
+	public AddPlace  addplace_payload() {
 
 		AddPlace p =new AddPlace();
 		p.setAccuracy(50);
@@ -22,7 +22,7 @@ public class build {
 		myList.add("shop");
 
 		p.setTypes(myList);
-		Location l =new Location();
+		Location l =new Location(); 
 		l.setLat(-38.383494);
 		l.setLng(33.427362);
 		p.setLocation(l);
